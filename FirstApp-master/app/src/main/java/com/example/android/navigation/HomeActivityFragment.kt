@@ -14,6 +14,7 @@ class HomeActivityFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         super.onCreate(savedInstanceState)
+
         return inflater.inflate(R.layout.fragment_home_activity, container, false)
     }
 

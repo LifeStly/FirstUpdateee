@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.android.navigation.R
@@ -37,10 +36,10 @@ class AddFragment : Fragment() {
         if(inputCheck(firstName)){
             val user = User(0,firstName)
             mUserViewModel.addUser(user)
-            Toast.makeText(requireContext()."Successfully added!",Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(),"Successfully added!",Toast.LENGTH_LONG).show()
             findNavController().navigate(R.id.action_addFragment_to_listFragment)
         }else{
-            Toast.makeText(requireContext())
+            Toast.makeText(requireContext(),"Please fill out all fields.",Toast.LENGTH_LONG).show()
         }
     }
 
