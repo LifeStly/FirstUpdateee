@@ -38,5 +38,4 @@
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment" />
     </fragment>
-    <include app:graph="@navigation/my_nav" />
 </navigation>
