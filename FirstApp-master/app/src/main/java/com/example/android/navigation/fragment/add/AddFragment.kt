@@ -1,14 +1,19 @@
 package com.example.android.navigation.fragment.add
 
 import android.os.Bundle
+import android.text.TextUtils
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import com.example.android.navigation.R
+import com.example.android.navigation.data.User
 import com.example.android.navigation.data.UserViewModel
+import kotlinx.android.synthetic.main.fragment_add.*
 import kotlinx.android.synthetic.main.fragment_add.view.*
 
 class AddFragment : Fragment() {
@@ -27,6 +32,19 @@ class AddFragment : Fragment() {
         return view
     }
     private fun insertDataToDatabase(){
-        val
+        val firstName = addFirstName_et.text.toString()
+
+        if(inputCheck(firstName)){
+            val user = User(0,firstName)
+            mUserViewModel.addUser(user)
+            Toast.makeText(requireContext()."Successfully added!",Toast.LENGTH_LONG).show()
+            findNavController().navigate(R.id.action_addFragment_to_listFragment)
+        }else{
+            Toast.makeText(requireContext())
+        }
+    }
+
+    private fun inputCheck(firstName: String):Boolean{
+        return !TextUtils.isEmpty((firstName))
     }
 }
