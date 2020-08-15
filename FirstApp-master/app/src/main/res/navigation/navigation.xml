@@ -22,7 +22,7 @@
         tools:layout="@layout/fragment_rules" />
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.android.navigation.ListFragment"
+        android:name="com.example.android.navigation.fragment.list.ListFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
@@ -31,11 +31,12 @@
     </fragment>
     <fragment
         android:id="@+id/addFragment"
-        android:name="com.example.android.navigation.AddFragment"
+        android:name="com.example.android.navigation.fragment.add.AddFragment"
         android:label="fragment_add"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment" />
     </fragment>
+    <include app:graph="@navigation/my_nav" />
 </navigation>

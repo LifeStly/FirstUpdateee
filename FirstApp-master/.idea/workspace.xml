@@ -36,10 +36,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="navigationResourceFile" />
         <option value="resourceFile" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="navigationResourceFile" />
       </list>
     </option>
   </component>
@@ -60,6 +60,12 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.android.navigation.fragment.list" />
+      <recent name="com.example.android.navigation.fragment.add" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -143,10 +149,18 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="410" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728@0.0.1360.728" timestamp="1595670035317" />
-    <state x="260" y="118" key="AndroidCreateResourceFileDialog" timestamp="1595652572813">
+    <state x="429" y="16" width="504" height="696" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1597527436985">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="260" y="118" key="AndroidCreateResourceFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1595652572813" />
+    <state x="429" y="16" width="504" height="696" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1597527436985" />
+    <state x="260" y="118" key="AndroidCreateResourceDirectoryDialog" timestamp="1597529716134">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="260" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1360.728@0.0.1360.728" timestamp="1597529716134" />
+    <state x="260" y="118" key="AndroidCreateResourceFileDialog" timestamp="1597528303577">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="260" y="118" key="AndroidCreateResourceFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1597528303577" />
     <state x="538" y="176" key="AndroidCreateXmlResourceDialog" timestamp="1596127489647">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
