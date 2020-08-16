@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 
 
-/*class HomeActivityFragment : Fragment() {
+class HomeActivityFragment : Fragment() {
 
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+    /*override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         super.onCreate(savedInstanceState)
@@ -21,5 +21,5 @@ import android.view.ViewGroup
 
     override fun onSupportNavigateUp():Boolean{
         val navController.navigateUp() || super.onSupportNavigateUp()
-    }
-}*/
+    }*/
+}
