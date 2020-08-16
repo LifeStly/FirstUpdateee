@@ -30,12 +30,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        //setupActionBarWithNavController(findNavController(R.id.fragment3))
+
 
         @Suppress("UNUSED_VARIABLE")
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this,
                 R.layout.activity_main)
 
+        setupActionBarWithNavController(findNavController(R.id.myNavHostFragment))
 
         drawerLayout = binding.drawerLayout
         val navController = this.findNavController(R.id.myNavHostFragment)

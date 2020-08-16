@@ -7,15 +7,19 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class HomeActivityFragment : Fragment() {
+/*class HomeActivityFragment : Fragment() {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         super.onCreate(savedInstanceState)
+        setupActionBarWithNavController(findNavController(R.id.fragment3))
 
-        return inflater.inflate(R.layout.fragment_home_activity, container, false)
+
     }
 
-}
+    override fun onSupportNavigateUp():Boolean{
+        val navController.navigateUp() || super.onSupportNavigateUp()
+    }
+}*/

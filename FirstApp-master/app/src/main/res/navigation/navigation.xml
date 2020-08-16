@@ -21,21 +21,21 @@
         android:label="Contact"
         tools:layout="@layout/fragment_rules" />
     <fragment
-        android:id="@+id/listFragment"
-        android:name="com.example.android.navigation.fragment.list.ListFragment"
-        android:label="fragment_list"
-        tools:layout="@layout/fragment_list" >
-        <action
-            android:id="@+id/action_listFragment_to_addFragment"
-            app:destination="@id/addFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/addFragment"
         android:name="com.example.android.navigation.fragment.add.AddFragment"
-        android:label="fragment_add"
+        android:label="Add"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.android.navigation.fragment.list.ListFragment"
+        android:label="List"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_addFragment"
+            app:destination="@id/addFragment" />
     </fragment>
 </navigation>
